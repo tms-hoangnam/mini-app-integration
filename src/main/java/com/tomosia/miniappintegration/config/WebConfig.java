@@ -1,4 +1,4 @@
-package com.line.line_demo.config;
+package com.tomosia.miniappintegration.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

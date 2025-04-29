@@ -1,4 +1,4 @@
-package com.line.line_demo.config.exception;
+package com.tomosia.miniappintegration.exception;
 
 import org.springframework.http.HttpStatus;
 

@@ -1,4 +1,4 @@
-package com.line.line_demo.config.exception;
+package com.tomosia.miniappintegration.exception;
 
 import jakarta.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.exception.ExceptionUtils;
