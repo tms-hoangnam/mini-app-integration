@@ -21,8 +21,8 @@ Mỗi chức năng được mô tả trong một file riêng tại thư mục `d
 *   **[Push Message](./docs/line/push-message.md):** Gửi tin nhắn chủ động tới người dùng đã kết bạn với Official Account (OA) của bạn thông qua User ID.
     *   *Input:* User ID, nội dung tin nhắn (text, template, flex, etc.).
     *   *Output:* Trạng thái gửi tin nhắn thành công hoặc lỗi.
-*   **[Notification (Gửi qua Messaging API)](./docs/line/notification.md):** Gửi thông báo (thường là Push Message) từ server đến người dùng. *Lưu ý: LINE không có cơ chế "notification" riêng biệt như push notification của mobile app, thường sẽ dùng Push Message API.*
-    *   *Input:* User ID, nội dung thông báo.
+*   **[Notification (Gửi qua Messaging API)](./docs/line/notification.md):** Gửi thông báo từ server đến người dùng. *Lưu ý: LINE có cơ chế "notification" nhưng Channel Message API phải được Line Cấp quyển sử dụng API thông báo. Và sẽ có giới hạn riêng cho tài khoản đó.*
+    *   *Input:* User Phone number, nội dung thông báo.
     *   *Output:* Trạng thái gửi thành công hoặc lỗi.
 *   **[Reply Message](./docs/line/reply-message.md):** Phản hồi tin nhắn của người dùng trong một khoảng thời gian ngắn sau khi người dùng tương tác (ví dụ: nhắn tin cho OA, follow OA).
     *   *Input:* Reply Token (nhận từ webhook), nội dung tin nhắn phản hồi.
