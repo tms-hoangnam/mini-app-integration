@@ -21,3 +21,9 @@ security:
   basic:
     enabled: false
 
+line:
+  bot:
+   channel-token: ${CHANNEL_TOKEN}
+   channel-secret: ${CHANNEL_SECRET}
+   handler.path: ${PATH}
+   handler.enabled: true
